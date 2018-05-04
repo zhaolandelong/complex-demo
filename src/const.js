@@ -40,6 +40,9 @@ export const staffTableColumns = [
     key: 'degree',
     label: '学历',
     width: 90,
+    render(row) {
+      return degreeMap[row.degree];
+    },
   }, {
     key: 'joinDate',
     label: '入职日期',
@@ -58,6 +61,9 @@ export const staffTableColumns = [
     key: 'isMarry',
     label: '婚否',
     width: 50,
+    render(row) {
+      return row.isMarry === 1 ? '是' : '否';
+    },
   }, {
     key: 'salary',
     label: '薪资',
