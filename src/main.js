@@ -3,7 +3,7 @@
 import Vue from 'vue';
 import {
   // Pagination,
-  // Dialog,
+  Dialog,
   // Autocomplete,
   // Dropdown,
   // DropdownMenu,
@@ -17,9 +17,9 @@ import {
   // Radio,
   // RadioGroup,
   // RadioButton,
-  // Checkbox,
-  // CheckboxButton,
-  // CheckboxGroup,
+  Checkbox,
+  CheckboxButton,
+  CheckboxGroup,
   // Switch,
   // Select,
   // Option,
@@ -76,7 +76,7 @@ import router from './router';
 Vue.config.productionTip = false;
 const ELEMENT_UI = [
   // Pagination,
-  // Dialog,
+  Dialog,
   // Autocomplete,
   // Dropdown,
   // DropdownMenu,
@@ -90,9 +90,9 @@ const ELEMENT_UI = [
   // Radio,
   // RadioGroup,
   // RadioButton,
-  // Checkbox,
-  // CheckboxButton,
-  // CheckboxGroup,
+  Checkbox,
+  CheckboxButton,
+  CheckboxGroup,
   // Switch,
   // Select,
   // Option,

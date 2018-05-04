@@ -3,7 +3,7 @@
     <div class="my-header-logo-wrap">
       <img class="my-header-logo" src="../assets/logo.png">
     </div>
-    Header
+    Welcome!
   </el-header>
 </template>
 <style lang="less">
